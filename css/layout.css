@@ -968,7 +968,7 @@ call-to-action .button {
 }
 #contact .social li a { color: #fff; }
 #contact .social li a:hover { color: #11ABB0; }
-#contact .social li a .fa{ margin-right:15px; }
+#contact .social li a .fa{ margin-right:2px; }
 
 
 /* ------------------------------------------------------------------ */
