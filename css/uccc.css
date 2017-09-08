@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #FF0009 url(../images/uccc-header-background.png) no-repeat 10% center;
+   background: #FF0009 url(../images/uccc-header-background.png) no-repeat center center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    overflow: hidden;
@@ -48,13 +48,18 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   margin: 100px auto 0 auto;
+   margin: 0 auto 0 auto;
    width: 85%;
    padding-bottom: 10px;
+   vertical-align: middle;
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
+
+header .banner-image-top, .banner-image-bottom {min-width: 400px;}
+header .banner-image-top {vertical-align: top;}
+header .banner-image-bottom {vertical-align: bottom;}
 header .banner-text h1 {
    font: 90px/1.1em 'budmo-jiggler', sans-serif;
    color: #fff;
