@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #FF0009 url(../images/shows/uccc-header-background.png) no-repeat center center;
+   background: #000 url(../images/shows/ecmas-header-background.png) no-repeat center center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    overflow: hidden;
@@ -53,9 +53,10 @@ header .banner {
    padding-bottom: 10px;
    vertical-align: middle;
    text-align: center;
+   float:right;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { width: 100%; padding-top: 3%;}
 
 header .banner-image-top, .banner-image-bottom {min-width: 400px;}
 header .banner-image-top {vertical-align: top;}
@@ -219,7 +220,7 @@ ul#nav li.current a { color: #773c70; }
    overflow: hidden;
    position: relative;
    width: 100%;
-   background: #161415 url(../images/shows/uccc-about-background.jpg) no-repeat top left;
+   background: #161415 url(../images/shows/ecmas-about-background.jpg) no-repeat top left;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
