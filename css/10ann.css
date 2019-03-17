@@ -239,6 +239,10 @@ ul#nav li.current a { color: #773c70; }
    color: #ccc;
    margin-bottom: 28px;
 }
+#about h3 {
+   color: #ccc;
+   font-style: italic;
+}
 #about p {
   font-size:20px;
    line-height: 30px;
