@@ -274,7 +274,7 @@ ul#nav li.current a { color: #773c70; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
-   background: #fff url(../images/resume-background.jpg) no-repeat top right;
+   background: #fff url(../images/resume-background.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
 }
@@ -283,7 +283,7 @@ ul#nav li.current a { color: #773c70; }
 	color:#dddddd;
 }
 
-#resume a, #resume a:visited  { color: #aaa; }
+#resume a, #resume a:visited  { color: #aaa; text-decoration: underline;}
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
