@@ -219,7 +219,7 @@ ul#nav li.current a { color: #773c70; }
    overflow: hidden;
    position: relative;
    width: 100%;
-   background: #161415 url(../images/shows/online-about-background.jpg) no-repeat top left;
+   background: #161415 url(../images/shows/online-about-background.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
