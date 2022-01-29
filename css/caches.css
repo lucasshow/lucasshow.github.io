@@ -466,6 +466,19 @@ ul#nav li.current a { color: #773c70; }
    padding-bottom: 60px;
   color: #1F1F1F;
 }
+
+#portfolio ul {
+  list-style: disc;
+  font-style: italic;
+  margin-left:20px;
+}
+
+#portfolio li.title {
+  list-style: none;
+  font-style: bold;
+
+}
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -504,7 +517,7 @@ ul#nav li.current a { color: #773c70; }
    background: #fff;
    overflow: hidden;
    position: relative;
-   min-height: 570px;
+   min-height: 610px;
    padding:15px;
    padding-left:20px;
    box-shadow: 10px 10px 5px grey;
@@ -515,10 +528,7 @@ ul#nav li.current a { color: #773c70; }
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
-   display: block;
-   cursor: pointer;
-}
+
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {

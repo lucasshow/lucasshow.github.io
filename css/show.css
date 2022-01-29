@@ -219,7 +219,7 @@ ul#nav li.current a { color: #773c70; }
    overflow: hidden;
    position: relative;
    width: 100%;
-   background: #161415 url(../images/shows/uccc-about-background.jpg) no-repeat top left;
+   background: #161415 url(../images/shows/online-about-background.jpg) no-repeat top left;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
@@ -227,11 +227,17 @@ ul#nav li.current a { color: #773c70; }
 
 #about .transparent {
   background: rgba(0, 0, 0, 0.5);
-  padding:10px;
+  padding:30px;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h1 {
+   font: 32px/35px 'opensans-bold', sans-serif;
+   color: #ccc;
+   margin-bottom: 28px;
+}
 
 #about h2 {
    font: 24px/30px 'opensans-bold', sans-serif;
