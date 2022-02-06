@@ -244,6 +244,13 @@ ul#nav li.current a { color: #773c70; }
    color: #ccc;
    margin-bottom: 28px;
 }
+
+#about h3 {
+   font: 20px/24px 'opensans-bold', sans-serif;
+   color: #ccc;
+   margin-bottom: 28px;
+}
+
 #about p {
   font-size:20px;
    line-height: 30px;
