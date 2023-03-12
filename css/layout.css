@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background3.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background4.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    text-align: center;
@@ -274,7 +274,7 @@ ul#nav li.current a { color: #773c70; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
-   background: #fff url(../images/resume-background.jpg) no-repeat top center;
+   background: #fff url(../images/resume-background2.jpg) no-repeat top center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
 }
@@ -283,8 +283,8 @@ ul#nav li.current a { color: #773c70; }
 	color:#dddddd;
 }
 
-#resume a, #resume a:visited  { color: #aaa; text-decoration: underline;}
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #773c70; text-decoration: underline;}
+#resume a:hover, #resume a:focus { color: #773c70; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
