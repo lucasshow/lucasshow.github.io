@@ -204,7 +204,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #773c70; }
+ul#nav li.current a { color: #FF0000; }
 
 
 /* ------------------------------------------------------------------ */
@@ -283,8 +283,8 @@ ul#nav li.current a { color: #773c70; }
 	color:#dddddd;
 }
 
-#resume a, #resume a:visited  { color: #773c70; text-decoration: underline;}
-#resume a:hover, #resume a:focus { color: #773c70; }
+#resume a, #resume a:visited  { color: #777777; text-decoration: underline;}
+#resume a:hover, #resume a:focus { color: #ff0000; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -293,7 +293,7 @@ ul#nav li.current a { color: #773c70; }
    color:#fff;
 }
 #resume h1 span {
-   border-bottom: 3px solid #712968;
+   border-bottom: 3px solid #FF0000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -974,8 +974,8 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #FF0000; }
+#contact a:hover, #contact a:focus { color: #FF0000; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -1099,5 +1099,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
   border-radius: 100%;
 }
-#go-top a:hover { background-color: #773c70; }
+#go-top a:hover { background-color: #FF0000; }
 
